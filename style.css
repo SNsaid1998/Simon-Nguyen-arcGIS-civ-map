@@ -1,8 +1,12 @@
 html,
-      body,
-      #viewDiv {
-        padding: 10;
-        margin: 10;
-        height: 500px;
-        width: 500px;
-      }
+body,
+#viewDiv {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: red;
+}
+#viewDiv canvas {
+  filter: drop-shadow(16px 16px 10px rgba(0, 0, 0, 0.5));
+}
